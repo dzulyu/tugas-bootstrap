@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Profile</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navigasi -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">KELOMPOKGANTENG.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#layanan">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portofolio">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tentang">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#staff">Staff</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Kontak Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- banner -->
+    <div class="container-fluid banner">
+      <div class="container text-center">
+        <h4 class="display-6">Selamat Datang di Website Kami</h4>
+        <h3 class="display-1">Hai! Halo!</h3>
+        <a href="#layanan">
+          <button type="button" class="btn btn-danger btn-lg">
+            Cek Layanan
+          </button>
+        </a>
+      </div>
+    </div>
+    <!-- layanan -->
+    <div class="container-fluid layanan pt-5 pb-5">
+      <div class="container text-center">
+        <h2 class="display-3" id="layanan">Layanan</h2>
+        <p>
+         Cek berbagai solusi seru yang bisa kami bantu buat nuntasin masalah digital kamu.
+        </p>
+        <div class="row pt-4">
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fas fa-code fa-5x"></i></span>
+            <h3 class="mt-3">Programming</h3>
+            <p>
+             Bikin website atau aplikasi impian kamu jadi nyata dengan kode yang rapi dan performa yang kencang.
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fas fa-palette fa-5x"></i></span>
+            <h3 class="mt-3">Design</h3>
+            <p>
+              Ubah ide kamu jadi visual yang estetik dan ikonik supaya brand kamu makin dilirik banyak orang.
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <span class="lingkaran"
+              ><i class="fas fa-network-wired fa-5x"></i
+            ></span>
+            <h3 class="mt-3">Networking</h3>
+            <p>
+             Bantu setup koneksi yang stabil dan aman biar urusan digital kamu lancar jaya tanpa hambatan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- portofolio -->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2 class="display-3" id="portofolio">Portofolio</h2>
+        <p>
+          Hasil karya yang lahir dari ide kreatif dan dedikasi penuh. Intip beberapa project seru yang pernah kami kerjakan.
+        </p>
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=400&h=200&fit=crop"
+                class="card-img-top"
+                width="200"
+                height="200"
+                alt="Portfolio 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text">
+                 Mulai dari landing page simpel sampai web aplikasi yang kompleks, kami bikin semuanya responsif dan enak dilihat di gadget apa pun.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=200&fit=crop"
+                class="card-img-top"
+                width="200"
+                height="200"
+                alt="Portfolio 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">UI/UX Design</h5>
+                <p class="card-text">
+                 Nggak cuma sekadar cantik, kami fokus bikin desain yang bikin pengguna nyaman dan nggak bingung pas pakai aplikasi kamu.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=200&fit=crop"
+                class="card-img-top"
+                width="200"
+                height="200"
+                alt="Portfolio 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Information System</h5>
+                <p class="card-text">
+                 Solusi buat kelola data yang berantakan jadi sistem yang rapi, terintegrasi, dan pastinya mempermudah operasional bisnismu.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=400&h=200&fit=crop"
+                class="card-img-top"
+                width="200"
+                height="200"
+                alt="Portfolio 4"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Data Analytics</h5>
+                <p class="card-text">
+                 Ubah tumpukan data jadi informasi yang bermakna. Kami bantu kamu baca peluang bisnis lewat analisis yang tajam dan akurat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=200&fit=crop"
+                class="card-img-top"
+                width="200"
+                height="200"
+                alt="Portfolio 5"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Dashboard App</h5>
+                <p class="card-text">
+                  Pantau performa bisnismu secara real-time dalam satu layar. Dashboard yang user-friendly bikin pengambilan keputusan jadi lebih sat-set.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=200&fit=crop"
+                class="card-img-top"
+                width="200"
+                height="200"
+                alt="Portfolio 6"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mobile App</h5>
+                <p class="card-text">
+                 Bawa bisnismu ke genggaman pelanggan. Kami bangun aplikasi mobile yang ringan, responsif, dan bikin betah penggunanya.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- tentang -->
+    <div class="container-fluid pt-5 pb-5">
+      <div class="container">
+        <h2 class="display-3 text-center" id="tentang">Tentang</h2>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, ex!
+        </p>
+        <div class="clearfix pt-5">
+          <img
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop"
+            class="col-md-6 float-md-end mb-3 crop-img"
+            width="300"
+            height="300"
+            alt="Tentang Kami"
+          />
+          <p>
+            Kenalan lebih dekat yuk! Kami adalah tim kreatif yang berfokus memberikan solusi digital terbaik untuk membantu bisnismu tumbuh.
+          </p>
+          <p>
+           Berawal dari semangat untuk menyederhanakan teknologi, kami hadir untuk membantu siapa pun yang ingin bertransformasi ke dunia digital dengan cara yang mudah dan efektif.
+          </p>
+          <p>
+            Dengan pengalaman di bidang programming, desain grafis, hingga analisis data, kami percaya bahwa setiap masalah punya solusi digital yang unik dan tepat sasaran.
+          </p>
+          <p>
+            Kami nggak cuma sekadar mengerjakan proyek, tapi kami memposisikan diri sebagai partner diskusi untuk memastikan hasil akhirnya benar-benar sesuai dengan apa yang kamu butuhkan.
+          </p>
+          <P>Komitmen kami adalah memberikan kualitas terbaik, komunikasi yang transparan, dan hasil kerja yang nggak cuma berfungsi dengan baik, tapi juga punya nilai estetika tinggi.
+          </P>
+        </div>
+      </div>
+    </div>
+    <!-- tim -->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2 class="display-3" id="staff">Tim Kami</h2>
+        <p>
+          Kenalan yuk sama orang-orang di balik layar yang siap bantu wujudkan ide-ide keren kamu jadi kenyataan!
+        </p>
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4 text-center tim">
+            <img
+              src="https://ui-avatars.com/api/?name=John+Doe&size=150&background=4A90D9&color=fff&rounded=true&bold=true"
+              class="rounded-circle mb-3"
+              alt="John Doe"
+            />
+            <h4>John Doe</h4>
+            <p>Web Designer</p>
+            <p>
+              <a href="" class="social"><i class="fab fa-twitter"></i></a>
+              <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center tim">
+            <img
+              src="https://ui-avatars.com/api/?name=Michael+Dell&size=150&background=E07B54&color=fff&rounded=true&bold=true"
+              class="rounded-circle mb-3"
+              alt="Michael Dell"
+            />
+            <h4>Michael Dell</h4>
+            <p>Data Scientist</p>
+            <p>
+              <a href="" class="social"><i class="fab fa-twitter"></i></a>
+              <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center tim">
+            <img
+              src="https://ui-avatars.com/api/?name=Paul&size=150&background=5DAB76&color=fff&rounded=true&bold=true"
+              class="rounded-circle mb-3"
+              alt="Paul"
+            />
+            <h4>Paul</h4>
+            <p>Network Engineer</p>
+            <p>
+              <a href="" class="social"><i class="fab fa-twitter"></i></a>
+              <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Client -->
+    <div class="container-fluid client pt-5 pb-5">
+      <div class="container text-center">
+        <div class="row pt-4 gx-4 gy-4 align-items-center justify-content-center">
+          <div class="col">
+            <!-- Microsoft -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 23 23">
+              <rect x="1" y="1" width="10" height="10" fill="#f25022"/>
+              <rect x="12" y="1" width="10" height="10" fill="#7fba00"/>
+              <rect x="1" y="12" width="10" height="10" fill="#00a4ef"/>
+              <rect x="12" y="12" width="10" height="10" fill="#ffb900"/>
+            </svg>
+          </div>
+          <div class="col">
+            <!-- Facebook -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="#1877F2">
+              <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.514c-1.491 0-1.956.93-1.956 1.886v2.268h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/>
+            </svg>
+          </div>
+          <div class="col">
+            <!-- Google -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 48 48">
+              <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+              <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+              <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+              <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+            </svg>
+          </div>
+          <div class="col">
+            <!-- Amazon -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 448 512" fill="#FF9900">
+              <path d="M257.2 162.7c-48.7 1.8-169.5 7.2-220.5 7.2C12.7 169.9 0 155.4 0 137.9 0 118.3 14.7 105 35.6 105c53.7 0 155.2 4.7 211.3 5.7 31.3.5 62.7 1 94 1.3 14.8.3 24.2 10 24.2 24.2 0 14.2-10 23.8-24.2 24.2-28 .7-56 1.3-83.7 2.3zm-3.7 48.5c-2.8 0-5.5-.1-8.2-.3-41.7-2.5-179.5-7.8-225.5-7.8C7.2 203.1 0 215.5 0 228.3c0 13.1 7.4 25 20.5 25 47.5 0 190.2 5.5 230.2 7.7 2.6.1 5.1.2 7.7.2 13.8 0 23.5-9.6 23.5-23.5.1-13.8-9.7-26.5-28.4-26.5zm-3.5 87.3c-2.8 0-5.7-.1-8.7-.3-37.2-2-166.5-6.7-209.2-6.7-12.8 0-19.8 11.5-19.8 23 0 11.8 7.2 22.5 19.8 22.5 44.5 0 177.2 4.8 213.8 6.7 2.7.1 5.3.2 7.8.2 12.7 0 21.5-8.8 21.5-21.5.1-12.7-9.6-23.9-25.2-23.9z"/>
+            </svg>
+          </div>
+          <div class="col">
+            <!-- IBM -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="40" viewBox="0 0 100 40">
+              <text x="50%" y="32" font-size="36" font-weight="900" font-family="Arial Black, sans-serif" fill="#1F70C1" text-anchor="middle" letter-spacing="4">IBM</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- kontak -->
+    <div class="container-fluid pt-5 pb-5 kontak">
+      <div class="container">
+        <h2 class="display-3 text-center" id="kontak">Kontak Kami</h2>
+        <p class="text-center">
+          Punya pertanyaan atau mau diskusi project bareng? Langsung aja drop pesan di sini, kita fast respon kok!
+        </p>
+        <div class="row pb-3">
+          <div class="col-md-6">
+            <input
+              class="form-control form-control-lg mb-3"
+              type="text"
+              placeholder="Nama"
+            />
+            <input
+              class="form-control form-control-lg mb-3"
+              type="text"
+              placeholder="Email"
+            />
+            <input
+              class="form-control form-control-lg"
+              type="text"
+              placeholder="No. Phone"
+            />
+          </div>
+          <div class="col-md-6">
+            <textarea class="form-control form-control-lg" rows="5"></textarea>
+          </div>
+        </div>
+        <div class="col-md-3 mx-auto text-center">
+          <button type="button" class="btn btn-danger btn-lg">
+            Kirim Pesan
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center pt-5 pb-5">
+      All Rights Reserved &copy; 2021
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
